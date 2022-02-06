@@ -1,0 +1,10 @@
+mosquitto:
+  publish-url:
+      - tcp://localhost:1883
+  subscribe-url: tcp://localhost:1883
+  username: username
+  password: password
+  qos: 2
+  topics:
+    - spring-test
+    - spring-test02
